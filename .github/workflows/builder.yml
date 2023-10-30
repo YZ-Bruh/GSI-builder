@@ -32,7 +32,7 @@ jobs:
        - name: Setting up environment...
          run: |
             sudo -E apt-get -qq update
-            sudo -E apt-get -qq install git openjdk-8-jdk p7zip
+            sudo -E apt-get -qq install git openjdk-8-jdk p7zip xz-utils tar mtools
        
        - name: Cloning repo...
          run: git clone --recurse-submodules https://github.com/ping2109/ErfanGSIs-TrebleExp.git ErfanGSIs
